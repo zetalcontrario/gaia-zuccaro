@@ -131,6 +131,11 @@ p {
   object-fit: cover;
 }
 
+.image-column video {
+  width: 100%;
+  height: auto;
+}
+
 .image-column .large-image {
   width: 100%;
   height: auto;
