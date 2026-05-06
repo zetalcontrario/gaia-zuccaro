@@ -188,6 +188,33 @@ video {
   font-style: italic;
 }
 
+/* === statement content === */
+.statement-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.statement-content p {
+  max-width: 500px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note {
+  font-size: 0.75rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #666;
+}
+
 /* === mobile overlay === */
 .mobile-overlay {
   display: none;
@@ -206,7 +233,7 @@ video {
 }
 
 .mobile-overlay p {
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   max-width: 400px;
   margin-bottom: 2rem;
 }
