@@ -258,7 +258,7 @@ video {
     cursor: not-allowed;
   }
   
-  body {
+  body:not(.statement-page) {
     overflow: hidden;
   }
   
@@ -266,7 +266,12 @@ video {
     filter: blur(5px);
     pointer-events: none;
   }
+
+  .statement-page {
+    overflow: auto;
+  }
 }
+
 
 @media (min-width: 1025px) {
   .mobile-overlay {
