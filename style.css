@@ -199,9 +199,18 @@ video {
   padding: 2rem;
 }
 
+@media (max-width: 1024px) {
+  .statement-content {
+    justify-content: flex-start;
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 .statement-content p {
   max-width: 500px;
-  font-size: 0.95rem;
+  font-size: clamp(0.8rem, 2.5vw, 0.955rem);
   line-height: 1.5;
   text-align: center;
   margin-left: auto;
